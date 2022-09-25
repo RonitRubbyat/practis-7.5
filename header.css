@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(silver,gray);
+    padding: 0px 10px;
+}
+nav>h1:hover>span{
+    position: relative;
+    left: 200px;
+}
+nav > ul{
+    display: flex;
+}
+nav ul li{
+    padding: 15px;
+    list-style: none;
+}
+nav>ul>li>ul{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+nav>ul>li:hover>ul{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

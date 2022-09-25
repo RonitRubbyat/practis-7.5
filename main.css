@@ -1,0 +1,65 @@
+.fa-brands{
+    color: red;
+}
+.display{
+    display: block;
+    font-size: xx-large;
+}
+.elements{
+    margin: 20px;
+    border: 1px solid;
+}
+table, th, td{
+    padding: 20px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.table{
+    margin: 20px;
+}
+table{
+    margin: 0px auto;
+    text-align: center;
+}
+@keyframes anim {
+    0%{
+        position: relative;
+        left: -50px;
+        top: -50px;
+        color: red;
+    }
+    35.25%{
+        position: relative;
+        top: 65px;
+        color: rgb(80, 75, 75);
+        transform: rotate(90deg);
+    }
+    75%{
+        position: relative;
+        left: 49px;
+        top: -50px;
+        color: red;
+    }
+    100%{
+        position: relative;
+        left: -50px;
+        top: -50px;
+    }
+}
+.anim{
+    background-color: aquamarine;
+}
+.anim>p{
+    font-size: xx-large;
+    animation: anim 1.5s linear 0s infinite forwards;
+}
+.h1{
+    border: 1px solid;
+    padding: 20px;
+    margin: 20px;
+}
+.sementic-tags{
+    border: 1px solid;
+    margin: 20px;
+    padding: 20px;
+}
